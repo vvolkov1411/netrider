@@ -1,0 +1,28 @@
+{
+  "name": "netrider",
+  "version": "1.0.0",
+  "description": "A typescript fetch library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vvolkov1411/netrider.git"
+  },
+  "keywords": [
+    "fetch",
+    "js",
+    "fetchLibrary",
+    "http",
+    "Fetch API",
+    "url"
+  ],
+  "author": "vvolkov14",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  }
+}
